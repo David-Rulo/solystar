@@ -235,9 +235,8 @@ function LandingPage() {
                 </div>
                 <h3 style={{ fontFamily: "'Poppins', sans-serif", fontSize: 20, fontWeight: 700, color: '#2C3E50', marginBottom: 8 }}>{sistema.name}</h3>
                 <p style={{ color: '#5D6D7E', fontSize: 14, marginBottom: 16 }}>{sistema.desc}</p>
-                <div style={{ fontFamily: "'Poppins', sans-serif", fontSize: 28, fontWeight: 700, color: '#F39C12', marginBottom: 20 }}>
-                  {sistema.price}
-                  <span style={{ fontSize: 14, color: '#5D6D7E', fontWeight: 400 }}> / instalado</span>
+                <div style={{ fontFamily: "'Poppins', sans-serif", fontSize: 18, fontWeight: 600, color: '#2E86C1', marginBottom: 14 }}>
+                  Opciones financieras mensuales sujetas a aprobación
                 </div>
                 <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 24px' }}>
                   {sistema.features.map((f, j) => (
