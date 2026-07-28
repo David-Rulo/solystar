@@ -1,0 +1,132 @@
+{
+  "app_type": "ecommerce",
+  "app_name": "Solystar",
+  "brand_name": "Solystar",
+  "tagline": "Energía solar con baterías para hogares en Centroamérica — hasta un 40% de ahorro en tu factura eléctrica",
+  "primary_color": "#F39C12",
+  "accent_color": "#2E86C1",
+  "secondary_color": "#FFF8F0",
+  "font_heading": "Poppins",
+  "font_body": "DM Sans",
+  "voice_tone": "confiable, cercano, claro, energético",
+  "logo_concept": "Un sol estilizado con un rayo en el centro, colores cálidos y modernos",
+  "brand_values": [
+    "Sostenibilidad",
+    "Innovación",
+    "Confianza",
+    "Compromiso local"
+  ],
+  "sections": [
+    "Hero",
+    "Beneficios",
+    "Productos destacados",
+    "Cómo funciona",
+    "Testimonios",
+    "Contacto"
+  ],
+  "backend_resources": [
+    "Productos",
+    "Cotizaciones",
+    "Pedidos",
+    "Contactos"
+  ],
+  "features": [
+    "Catálogo de sistemas fotovoltaicos con baterías",
+    "Cotizador personalizado para hogares",
+    "Gestión de pedidos y envíos a Centroamérica",
+    "Soporte en español para clientes residenciales"
+  ],
+  "pricing_tiers": [
+    "Básico: $0 — Cotización gratuita y catálogo",
+    "Premium: $49/mes — Cotizaciones ilimitadas y soporte prioritario",
+    "Empresarial: $199/mes — API, integraciones y equipo dedicado"
+  ],
+  "target_customer": "Propietarios de viviendas en Centroamérica interesados en energía solar residencial con almacenamiento",
+  "key_metric": "Ahorro de hasta 40% en factura eléctrica",
+  "hero_stats": [
+    {
+      "value": "40%",
+      "label": "Ahorro en factura eléctrica"
+    },
+    {
+      "value": "500+",
+      "label": "Hogares instalados"
+    },
+    {
+      "value": "5 años",
+      "label": "Garantía en baterías"
+    }
+  ],
+  "api_contract": [
+    {
+      "method": "GET",
+      "path": "/api/productos",
+      "response": "[{id, nombre, descripcion, precio, imagen, categoria}]",
+      "description": "Obtiene todos los productos (sistemas solares y baterías) disponibles"
+    },
+    {
+      "method": "GET",
+      "path": "/api/productos/:id",
+      "response": "{id, nombre, descripcion, precio, imagen, categoria, especificaciones}",
+      "description": "Obtiene detalle de un producto específico"
+    },
+    {
+      "method": "POST",
+      "path": "/api/cotizaciones",
+      "response": "{id, productos, total, fecha, estado}",
+      "description": "Crea una cotización personalizada con los productos seleccionados"
+    },
+    {
+      "method": "GET",
+      "path": "/api/cotizaciones/:id",
+      "response": "{id, productos, total, fecha, estado, cliente}",
+      "description": "Obtiene los detalles de una cotización"
+    },
+    {
+      "method": "POST",
+      "path": "/api/contacto",
+      "response": "{id, nombre, email, mensaje, creado}",
+      "description": "Envía un mensaje de contacto desde el formulario"
+    },
+    {
+      "method": "GET",
+      "path": "/api/pedidos",
+      "response": "[{id, fecha, total, estado}]",
+      "description": "Lista los pedidos realizados por el usuario"
+    },
+    {
+      "method": "POST",
+      "path": "/api/pedidos",
+      "response": "{id, fecha, total, estado, items}",
+      "description": "Crea un nuevo pedido a partir de una cotización"
+    },
+    {
+      "method": "GET",
+      "path": "/api/metricas",
+      "response": "{ahorro_promedio, hogares_instalados, satisfaccion}",
+      "description": "Obtiene métricas clave de impacto para el hero y dashboard"
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "m1",
+      "title": "Catálogo de productos + cotizador básico (API productos y cotizaciones)",
+      "status": "pending"
+    },
+    {
+      "id": "m2",
+      "title": "Carrito de compras y flujo de pedidos (API pedidos + integración)",
+      "status": "pending"
+    },
+    {
+      "id": "m3",
+      "title": "Módulo de contacto y panel de métricas (API contacto y métricas)",
+      "status": "pending"
+    },
+    {
+      "id": "m4",
+      "title": "Autenticación y gestión de usuarios con historial de cotizaciones y pedidos",
+      "status": "pending"
+    }
+  ]
+}
