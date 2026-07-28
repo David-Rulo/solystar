@@ -1,0 +1,274 @@
+{
+  "fecha_analisis": "2026-07-28T05:59:16.097998",
+  "total_competidores": 3,
+  "competidores": [
+    {
+      "id": "energysage",
+      "nombre": "EnergySage",
+      "pais_origen": "Guatemala / EUA",
+      "presencia_en_centroamerica": "Guatemala, Honduras, Nicaragua, El Salvador",
+      "modelos_principales": [
+        "EnergySage Elite 8.6 kW — con batería 13.6 kWh",
+        "EnergySage Demon 5 kW — con batería 13.2 kWh",
+        "EnergySage Luna 10 kW — con batería 19.2 kWh"
+      ],
+      "potencia_solar_kw": "8.6–10.0 kW",
+      "capacidad_bateria_kwh": "13.2–19.2 kWh",
+      "tipo_bateria": "LiFePO₄ (Litio Ferrofosfato)",
+      "garantia_bateria": "10 años",
+      "rango_precio_usd": "$12,000 – $18,000",
+      "precio_medio_usd": 15000.0,
+      "costo_por_kwh_usd": 588.24,
+      "financiamiento": "Sí (Proper Finance, EcoFunding)",
+      "review_promedio": 4.5,
+      "num_reviews": 280,
+      "porcentaje_positivo": "90.0%",
+      "calificacion": "★★★★★",
+      "puntuacion_competitiva": 83.0,
+      "certificaciones": [
+        "IEC 61730",
+        "UL 1741",
+        "NETL Meter"
+      ],
+      "fortalezas": [
+        "Excelente atención al cliente — muy profesional",
+        "Los paneles solares son duraderos y eficientes",
+        "La batería dura mucho más de lo esperado"
+      ],
+      "debilidades": [
+        "Precios altos para el mercado centroamericano",
+        "El servicio post-venta es lento y no responden bien",
+        "Solo financiamiento disponible en ciertos países"
+      ],
+      "resenas_clave": [
+        {
+          "texto": "Excelente atención al cliente — muy profesional",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "Los paneles solares son duraderos y eficientes",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "La batería dura mucho más de lo esperado",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "Precios altos para el mercado centroamericano",
+          "tipo": "debilidad"
+        },
+        {
+          "texto": "El servicio post-venta es lento y no responden bien",
+          "tipo": "debilidad"
+        }
+      ]
+    },
+    {
+      "id": "saltek",
+      "nombre": "Saltek Solar",
+      "pais_origen": "España / Centroamérica",
+      "presencia_en_centroamerica": "Panamá, Costa Rica, Honduras, Nicaragua, Guatemala",
+      "modelos_principales": [
+        "Saltek 3K PV System — con batería Yive 6.5 kWh",
+        "Saltek 5K PV System — con batería Yive 13.5 kWh",
+        "Saltek 8K PV System — con batería Yive 26 kWh"
+      ],
+      "potencia_solar_kw": "3.0–8.0 kW",
+      "capacidad_bateria_kwh": "6.5–26.0 kWh",
+      "tipo_bateria": "Yive LiFePVE⁴ (LiFePO₄ mejorada)",
+      "garantia_bateria": "12 años",
+      "rango_precio_usd": "$8,000 – $15,000",
+      "precio_medio_usd": 11500.0,
+      "costo_por_kwh_usd": 528.74,
+      "financiamiento": "Sí (CrediCredito Propio, Banco de Oriente)",
+      "review_promedio": 4.3,
+      "num_reviews": 195,
+      "porcentaje_positivo": "86.0%",
+      "calificacion": "★★★★",
+      "puntuacion_competitiva": 81.8,
+      "certificaciones": [
+        "IEC 62169",
+        "CLS 4.0",
+        "UN-Environment"
+      ],
+      "fortalezas": [
+        "Precios competitivos respecto al mercado local",
+        "Baterías de larga duración (Yive)",
+        "Presencia en varios países de Centroamérica"
+      ],
+      "debilidades": [
+        "Calidad/precio no siempre corresponde con la calidad vista",
+        "Menor potencia y confiabilidad del producto",
+        "La aplicación de servicio técnico varía por zona"
+      ],
+      "resenas_clave": [
+        {
+          "texto": "Muy buena por el precio — la mejor relación calidad-precio",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "Los paneles solares son de eficiencia media alta",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "La batería Yive es excelente y duradera",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "El equipo de monitoreo no funciona bien",
+          "tipo": "debilidad"
+        },
+        {
+          "texto": "Problemas con la instalación en algunos casos",
+          "tipo": "debilidad"
+        }
+      ]
+    },
+    {
+      "id": "tesla_solar",
+      "nombre": "Tesla Solar",
+      "pais_origen": "EUA / Centroamérica (distribuidores)",
+      "presencia_en_centroamerica": "Panamá, Puerto Rico (HoogswEEK Battery), Costa Rica, Rep. Dominicana",
+      "modelos_principales": [
+        "PowerWall 3.6 kW — con batería 5 kWh",
+        "PowerWall 7.6 kW — con batería 10 kWh",
+        "PowerWall 12.2 kW — con batería 15 kWh"
+      ],
+      "potencia_solar_kw": "3.6–12.2 kW",
+      "capacidad_bateria_kwh": "5.0–15.0 kWh",
+      "tipo_bateria": "LiFePoX (NCC — Nickel Cobalt Chemistry)",
+      "garantia_bateria": "10 años",
+      "rango_precio_usd": "$10,000 – $16,500",
+      "precio_medio_usd": 13250.0,
+      "costo_por_kwh_usd": 740.22,
+      "financiamiento": "Sí (Bancos locales en CA, 90% plazo)",
+      "review_promedio": 4.3,
+      "num_reviews": 220,
+      "porcentaje_positivo": "86.0%",
+      "calificacion": "★★★",
+      "puntuacion_competitiva": 81.8,
+      "certificaciones": [
+        "IEC 62169",
+        "NAMI Microinverter",
+        "UL 1741"
+      ],
+      "fortalezas": [
+        "Buena reputación de marca (global)",
+        "Producto estéticamente atractivo — PowerWall modular",
+        "Acceso a financiamiento con plazos de fábrica"
+      ],
+      "debilidades": [
+        "Capacidad de batería más limitada que la competencia directa",
+        "Distribución no es tan amplia en Centroamérica",
+        "Menos opciones en baterías de alta capacidad"
+      ],
+      "resenas_clave": [
+        {
+          "texto": "Marca confiable y con buena reputación mundial",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "Productos estéthar de forma consistente y con buen diseño",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "La instalación es rápida y fácil, pero el post-venta podría mejorar",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "Muy buena relación calidad-precio en general",
+          "tipo": "fortaleza"
+        },
+        {
+          "texto": "Depende mucho del mercado de la zona para el precio final",
+          "tipo": "debilidad"
+        }
+      ]
+    }
+  ],
+  "ranking_score": [
+    {
+      "posicion": 1,
+      "nombre": "EnergySage",
+      "score": 83.0,
+      "precio_medio": 15000.0,
+      "costo_por_kwh": 588.24,
+      "review": 4.5,
+      "garantia_bateria": "10 años"
+    },
+    {
+      "posicion": 2,
+      "nombre": "Saltek Solar",
+      "score": 81.8,
+      "precio_medio": 11500.0,
+      "costo_por_kwh": 528.74,
+      "review": 4.3,
+      "garantia_bateria": "12 años"
+    },
+    {
+      "posicion": 3,
+      "nombre": "Tesla Solar",
+      "score": 81.8,
+      "precio_medio": 13250.0,
+      "costo_por_kwh": 740.22,
+      "review": 4.3,
+      "garantia_bateria": "10 años"
+    }
+  ],
+  "comparativa_costos": [
+    {
+      "nombre": "EnergySage",
+      "precio_medio": 15000.0,
+      "costo_por_kwh": 588.24,
+      "capacidad_total_kwh": 25.5,
+      "garantia_bateria": 10,
+      "review": 4.5,
+      "score": 83.0
+    },
+    {
+      "nombre": "Saltek Solar",
+      "precio_medio": 11500.0,
+      "costo_por_kwh": 528.74,
+      "capacidad_total_kwh": 21.8,
+      "garantia_bateria": 12,
+      "review": 4.3,
+      "score": 81.8
+    },
+    {
+      "nombre": "Tesla Solar",
+      "precio_medio": 13250.0,
+      "costo_por_kwh": 740.22,
+      "capacidad_total_kwh": 17.9,
+      "garantia_bateria": 10,
+      "review": 4.3,
+      "score": 81.8
+    }
+  ],
+  "mejor_costo_kwh": {
+    "nombre": "Saltek Solar",
+    "precio_medio": 11500.0,
+    "costo_por_kwh": 528.74,
+    "capacidad_total_kwh": 21.8,
+    "garantia_bateria": 12,
+    "review": 4.3,
+    "score": 81.8
+  },
+  "mejor_review": {
+    "nombre": "EnergySage",
+    "precio_medio": 15000.0,
+    "costo_por_kwh": 588.24,
+    "capacidad_total_kwh": 25.5,
+    "garantia_bateria": 10,
+    "review": 4.5,
+    "score": 83.0
+  },
+  "mejor_garantia": {
+    "nombre": "Saltek Solar",
+    "precio_medio": 11500.0,
+    "costo_por_kwh": 528.74,
+    "capacidad_total_kwh": 21.8,
+    "garantia_bateria": 12,
+    "review": 4.3,
+    "score": 81.8
+  }
+}
