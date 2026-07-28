@@ -107,10 +107,6 @@ function LandingPage() {
       <section id="inicio" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: 80, maxWidth: 1280, margin: '0 auto', padding: '120px 24px 80px' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 60, alignItems: 'center' }}>
           <div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(46,134,193,0.1)', padding: '8px 16px', borderRadius: 50, marginBottom: 24 }}>
-              <Zap size={18} color="#2E86C1" />
-              <span style={{ color: '#2E86C1', fontWeight: 600, fontSize: 14 }}>Energía limpia para tu hogar</span>
-            </div>
             <h1 style={{
               fontFamily: "'Poppins', sans-serif",
               fontSize: 52,
