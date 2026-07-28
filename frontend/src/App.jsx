@@ -466,8 +466,9 @@ function LandingPage() {
             </div>
           </div>
           <div>
-            <h4 style={{ color: '#fff', fontFamily: "'Poppins', sans-serif", fontSize: 15, fontWeight: 600, marginBottom: 16 }}>Soporte</h4>
+            <h4 style={{ color: '#fff', fontFamily: "'Poppins', sans-serif", fontSize: 15, fontWeight: 600, marginBottom: 16 }}>Contacto</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 14 }}>
+              <span>504-3366-2415</span>
               <span>Centro de ayuda</span>
               <span>Garantía</span>
               <span>Financiamiento</span>
