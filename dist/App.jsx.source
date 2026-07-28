@@ -351,9 +351,9 @@ function LandingPage() {
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 32 }}>
           {[
-            { name: 'Básico', price: '$0', desc: 'Cotización gratuita y catálogo completo', features: ['Catálogo de sistemas', 'Cotización sin compromiso', 'Asesoría básica por email', 'Guía de instalación'] },
-            { name: 'Premium', price: '$49/mes', desc: 'Cotizaciones ilimitadas y soporte prioritario', popular: true, features: ['Todo lo del plan Básico', 'Cotizaciones ilimitadas', 'Soporte prioritario 24/7', 'Monitoreo en tiempo real', 'Descuentos en equipos'] },
-            { name: 'Empresarial', price: '$199/mes', desc: 'API, integraciones y equipo dedicado', features: ['Todo lo del plan Premium', 'API de cotización', 'Integraciones ERP', 'Equipo dedicado', 'Reportes avanzados', 'SLA garantizado'] }
+            { name: '3kW Básico', price: '$2,990', desc: 'Para hogares pequeños (1-2 personas). Reduce hasta 30% tu factura.', features: ['3 paneles 450W', 'Batería 5kWh LiFePO4', 'Inversor híbrido 3kW', 'Instalación básica incluida', 'Garantía de 2 años'] },
+            { name: '5kW Estándar', price: '$4,990', desc: 'Para familias de 3-4 personas. Ahorro garantizado del 40%.', popular: true, features: ['5 paneles 450W', 'Batería 10kWh LiFePO4', 'Inversor híbrido 5kW', 'Monitoreo remoto vía app', 'Garantía de 5 años', 'Soporte prioritario'] },
+            { name: '8kW Premium', price: '$7,990', desc: 'Para hogares grandes. Independencia energética total.', features: ['8 paneles 450W', 'Batería 15kWh LiFePO4', 'Inversor híbrido 8kW', 'Monitoreo remoto vía app', 'Garantía de 5 años', 'Soporte VIP 24/7', 'Respaldo para carga EV'] }
           ].map((plan, i) => (
             <div key={i} style={{
               background: '#FFF',
@@ -365,7 +365,7 @@ function LandingPage() {
             }}>
               {plan.popular && (
                 <div style={{ background: '#F39C12', color: '#fff', padding: '6px 16px', borderRadius: '0 0 12px 12px', position: 'absolute', top: 0, right: 24, fontSize: 12, fontWeight: 700 }}>
-                  RECOMENDADO
+                  MÁS POPULAR
                 </div>
               )}
               <h3 style={{ fontFamily: "'Poppins', sans-serif", fontSize: 20, fontWeight: 700, color: '#2C3E50', marginBottom: 8 }}>{plan.name}</h3>
@@ -396,7 +396,7 @@ function LandingPage() {
                   transition: 'all 0.3s'
                 }}
               >
-                Elegir plan
+                Cotizar ahora
               </button>
             </div>
           ))}
