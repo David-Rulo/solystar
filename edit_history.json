@@ -1,0 +1,26 @@
+[
+  {
+    "instruction": "Add a phone number 504-3366-2415",
+    "ts": "2026-07-28T06:55:41.839150",
+    "chars_before": 31588,
+    "chars_after": 31630
+  },
+  {
+    "instruction": "hide prices, instead offer a monthly financial options per approval",
+    "ts": "2026-07-28T06:58:59.490637",
+    "chars_before": 31630,
+    "chars_after": 31562
+  },
+  {
+    "instruction": "remove the planes para tu hogar",
+    "ts": "2026-07-28T07:00:04.041389",
+    "chars_before": 31562,
+    "chars_after": 31203
+  },
+  {
+    "instruction": "Change the Precios Seccions",
+    "ts": "2026-07-28T07:03:00.439388",
+    "chars_before": 31203,
+    "chars_after": 31324
+  }
+]
